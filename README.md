@@ -16,7 +16,6 @@ La API maneja una sola entidad llamada `Producto` y utiliza dos DTOs:
 - DTOs  
 - Entity Framework Core  
 - Data Annotations (`[Required]`)  
-- Swagger  
 
 ---
 ## 📁 Estructura del proyecto
