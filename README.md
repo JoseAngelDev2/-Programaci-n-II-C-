@@ -22,6 +22,8 @@ La API maneja una sola entidad llamada `Producto` y utiliza dos DTOs:
 
 
 
+
+
 ## 📁 Estructura del proyecto
 
 ProductsCRUDAPIs.api
@@ -31,7 +33,7 @@ ProductsCRUDAPIs.api
 │
 ├── Products.Domain
 │ └── Entities
-│     └── Products.cs
+│ └── Products.cs
 │
 ├── Products.DTOs
 │ ├── ProductListDTO.cs
@@ -39,6 +41,12 @@ ProductsCRUDAPIs.api
 │
 ├── Program.cs
 └── appsettings.json
+
+
+
+
+
+
 
 
 ---
