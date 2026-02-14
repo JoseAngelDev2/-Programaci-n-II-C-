@@ -116,14 +116,11 @@ Stock
 
 ## ▶️ Ejecución del proyecto
 
-1. Clonar el repositorio:
-git clone https://github.com/JoseAngelDev2/-Programaci-n-II-C-/tree/origin/homework2
+1. Clonar el repositorio: git clone https://github.com/JoseAngelDev2/-Programaci-n-II-C-/tree/origin/homework2
 
-2. 
-Abrir el proyecto en Visual Studio.
+2. Abrir el proyecto en Visual Studio.
 
-3.
-Ejecutar la aplicación:
+3. Ejecutar la aplicación:
 
 dotnet run
 
