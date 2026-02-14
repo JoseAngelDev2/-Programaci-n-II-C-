@@ -17,7 +17,7 @@ La API maneja una sola entidad llamada `Producto` y utiliza dos DTOs:
 - Entity Framework Core  
 - Data Annotations (`[Required]`)  
 
----
+
 ## 📁 Estructura del proyecto
 
 
@@ -76,11 +76,13 @@ Contiene validaciones obligatorias:
 
 ProductCreateDto
 {
+
 [Required]
 Name
 
 [Required]
 State
+
 [Required]
 Price
 
