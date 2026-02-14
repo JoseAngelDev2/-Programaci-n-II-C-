@@ -1,0 +1,24 @@
+@UserCRUDAPIs_api_HostAddress = http://localhost:5062
+
+GET {{UserCRUDAPIs_api_HostAddress}}/api/products
+Accept: application/json
+
+###
+
+GET {{UserCRUDAPIs_api_HostAddress}}/api/products/2
+Accept: application/json
+
+###
+
+POST  {{UserCRUDAPIs_api_HostAddress}}/api/products
+Accept: application/json
+
+{
+  "Id": ,
+  "Name": "Teclado",
+  "Price": 14,
+  "Stock": 42,
+  "State": "Good"
+}
+
+###
