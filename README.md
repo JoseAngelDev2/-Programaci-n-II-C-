@@ -38,7 +38,7 @@ ProductsCRUDAPIs.api
 ├── Program.cs
 └── appsettings.json
 
----
+
 
 ## 🧩 Entidad principal
 
@@ -54,8 +54,6 @@ State
 }
 
 
----
-
 ## 📌 DTOs utilizados
 
 ### 1️⃣ ProductListDto (listar productos)
@@ -70,7 +68,7 @@ Price
 }
 
 
----
+
 
 ### 2️⃣ ProductCreateDto (crear producto)
 
@@ -93,7 +91,7 @@ Stock
 
 
 
----
+
 
 ## 🔄 Funcionalidades CRUD
 
