@@ -19,12 +19,9 @@ La API maneja una sola entidad llamada `Producto` y utiliza dos DTOs:
 - Swagger  
 
 ---
-
-
-
-
-
 ## 📁 Estructura del proyecto
+
+
 
 ProductsCRUDAPIs.api
 │
@@ -41,13 +38,6 @@ ProductsCRUDAPIs.api
 │
 ├── Program.cs
 └── appsettings.json
-
-
-
-
-
-
-
 
 ---
 
