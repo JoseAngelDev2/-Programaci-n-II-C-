@@ -31,10 +31,24 @@ namespace AppMoviesCase.Api.Controllers
         }
 
         [HttpPost]
-
         public async Task<ActionResult> CreateCategory(Category category)
         {
             await _repo.AddCategory(category);
+            return NoContent();
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> UpdateCategory(Category category, int id)
+        {
+            await _repo.EditCategory(category, id);
+            return NoContent();
+        }
+
+        [HttpDelete]
+
+        public async Task<ActionResult> RemoveCategory(int id)
+        {
+            await _repo.RemoveCategory(id);
             return NoContent();
         }
 
