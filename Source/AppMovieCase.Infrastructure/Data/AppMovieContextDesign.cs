@@ -9,7 +9,7 @@ using AppMovieCase.Infrastructure.Data;
 
 namespace AppMovieCase.Infrastructure.Data
 {
-    public class BloggingContextFactory : IDesignTimeDbContextFactory<AppMovieDbContext>
+    public class AppMovieCaseContextFactory : IDesignTimeDbContextFactory<AppMovieDbContext>
     {
         public AppMovieDbContext CreateDbContext(string[] args)
         {
