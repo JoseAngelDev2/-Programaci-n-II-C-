@@ -13,6 +13,7 @@ namespace AppMovieCase.Infrastructure.Data
     {
         public AppMovieDbContext CreateDbContext(string[] args)
         {
+        
             var optionsBuilder = new DbContextOptionsBuilder<AppMovieDbContext>();
             optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=AppMovieCaseDb;Trusted_Connection=True;TrustServerCertificate=True");
 
