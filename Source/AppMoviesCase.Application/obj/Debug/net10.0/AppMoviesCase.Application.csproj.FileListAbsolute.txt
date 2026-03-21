@@ -1,0 +1,16 @@
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\bin\Debug\net10.0\AppMoviesCase.Application.deps.json
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\bin\Debug\net10.0\AppMoviesCase.Application.dll
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\bin\Debug\net10.0\AppMoviesCase.Application.pdb
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\bin\Debug\net10.0\AppMovieCase.Domain.dll
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\bin\Debug\net10.0\AppMovieCase.Domain.pdb
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMoviesCase.Application.csproj.AssemblyReference.cache
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMoviesCase.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMoviesCase.Application.AssemblyInfoInputs.cache
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMoviesCase.Application.AssemblyInfo.cs
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMoviesCase.Application.csproj.CoreCompileInputs.cache
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMoviesCase.Application.sourcelink.json
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMovie.95A3A4C9.Up2Date
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMoviesCase.Application.dll
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\refint\AppMoviesCase.Application.dll
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\AppMoviesCase.Application.pdb
+C:\Users\uncle\Music\AppMoviesCase\src\AppMoviesCase.Application\obj\Debug\net10.0\ref\AppMoviesCase.Application.dll
