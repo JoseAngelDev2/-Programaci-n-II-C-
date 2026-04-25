@@ -35,7 +35,7 @@ src/
 
 ## ⚙️ Tecnologías utilizadas
 
-* ⚡ .NET 8 / ASP.NET Core
+* ⚡ .NET 10 / ASP.NET Core
 * 🗄️ Entity Framework Core
 * 🧩 Arquitectura limpia (Clean Architecture)
 * 🔗 API REST
