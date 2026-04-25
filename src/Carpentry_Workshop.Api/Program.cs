@@ -52,9 +52,9 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 
-// app.UseHttpsRedirection(); // mantén esto comentado
+// app.UseHttpsRedirection();
 
-app.UseCors("AllowAll");  // ← debe ir ANTES de UseAuthorization y MapControllers
+app.UseCors("AllowAll");  
 app.UseAuthorization();
 app.MapControllers();
 
