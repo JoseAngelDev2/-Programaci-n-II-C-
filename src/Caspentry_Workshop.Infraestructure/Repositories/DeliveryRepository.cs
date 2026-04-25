@@ -21,7 +21,7 @@ namespace Caspentry_Workshop.Infraestructure.Repositories
 
         public async Task AddDelivery(Delivery delivery)
         {
-            var project = await _db.Projects.AnyAsync(x => x.ProjectId == delivery.ProjectId);
+            var project = await _db.Projects.AnyAsync(x => x.Id == delivery.ProjectId);
 
             if (!project)
             {
@@ -29,7 +29,7 @@ namespace Caspentry_Workshop.Infraestructure.Repositories
             }
             var newDelivery = new DeliveryModel
             {
-                deliveryDate = delivery.deliveryDate,
+                deliveryDate = DateTime.SpecifyKind(delivery.deliveryDate, DateTimeKind.Utc),
                 statusDelivery = delivery.statusDelivery,
                 ProjectId = delivery.ProjectId
             };
@@ -45,9 +45,9 @@ namespace Caspentry_Workshop.Infraestructure.Repositories
             if (foundDelivery is null)
                 throw new Exception($"Delivery with id {id} not found");
 
-            var project = await _db.Projects.AnyAsync(x => x.Id == delivery.ProjectId);
+            var project = await _db.Projects.AnyAsync(x => x.Id == delivery.Id);
 
-            if (!project)
+            if (project =! true)
                 throw new Exception($"Project with id {delivery.ProjectId} not found");
 
             foundDelivery.deliveryDate = delivery.deliveryDate;
@@ -69,7 +69,7 @@ namespace Caspentry_Workshop.Infraestructure.Repositories
                 Id = x.Id,
                 deliveryDate = x.deliveryDate,
                 statusDelivery = x.statusDelivery,
-                ProjectId = x.ProjectId,
+                ProjectId = x.ProjectId
 
             }).ToList();
         }

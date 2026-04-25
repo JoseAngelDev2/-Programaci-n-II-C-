@@ -4,6 +4,7 @@ using Caspentry_Workshop.Application.Services;
 using Caspentry_Workshop.Infraestructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using AppCarpentryWorkshop = Caspentry_Workshop.Infraestructure.Data.DbContextCapentryWorkshop;
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppCarpentryWorkshop>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
@@ -46,16 +47,17 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
-app.UseHttpsRedirection(); 
-app.UseCors("AllowAll");
+app.UseSwagger();
+app.UseSwaggerUI();
+
+
+// app.UseHttpsRedirection(); // mantén esto comentado
+
+app.UseCors("AllowAll");  // ← debe ir ANTES de UseAuthorization y MapControllers
 app.UseAuthorization();
 app.MapControllers();
+
 
 app.Run();
 

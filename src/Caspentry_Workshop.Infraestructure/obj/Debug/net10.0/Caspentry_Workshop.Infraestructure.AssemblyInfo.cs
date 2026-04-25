@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Caspentry_Workshop.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae0828b05d83c835ed81d4b5fe8e46d77f9f0bd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Caspentry_Workshop.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Caspentry_Workshop.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

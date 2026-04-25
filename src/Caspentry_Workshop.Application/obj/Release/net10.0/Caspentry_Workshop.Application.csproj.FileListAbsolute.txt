@@ -1,0 +1,16 @@
+D:\Proyecto Final\src\Caspentry_Workshop.Application\bin\Release\net10.0\Caspentry_Workshop.Application.deps.json
+D:\Proyecto Final\src\Caspentry_Workshop.Application\bin\Release\net10.0\Caspentry_Workshop.Application.dll
+D:\Proyecto Final\src\Caspentry_Workshop.Application\bin\Release\net10.0\Caspentry_Workshop.Application.pdb
+D:\Proyecto Final\src\Caspentry_Workshop.Application\bin\Release\net10.0\Caspentry_Workshop.Domain.dll
+D:\Proyecto Final\src\Caspentry_Workshop.Application\bin\Release\net10.0\Caspentry_Workshop.Domain.pdb
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentry_Workshop.Application.csproj.AssemblyReference.cache
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentry_Workshop.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentry_Workshop.Application.AssemblyInfoInputs.cache
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentry_Workshop.Application.AssemblyInfo.cs
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentry_Workshop.Application.csproj.CoreCompileInputs.cache
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentry_Workshop.Application.sourcelink.json
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentr.B5A22F7F.Up2Date
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentry_Workshop.Application.dll
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\refint\Caspentry_Workshop.Application.dll
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\Caspentry_Workshop.Application.pdb
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Release\net10.0\ref\Caspentry_Workshop.Application.dll

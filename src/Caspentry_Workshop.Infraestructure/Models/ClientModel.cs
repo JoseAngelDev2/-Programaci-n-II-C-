@@ -12,6 +12,7 @@ namespace Caspentry_Workshop.Domain.Entities
         public string? Email { get; set; }
         public string? Phone { get; set; }
         public string? Address { get; set; }
+        public int ProjectId { get; set; }
         public ICollection<Project> Proyects { get; set; } = new List<Project>();
     }
 }

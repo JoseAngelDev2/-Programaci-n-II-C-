@@ -13,3 +13,4 @@ D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Debug\net10.0\Caspentry
 D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Debug\net10.0\refint\Caspentry_Workshop.Application.dll
 D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Debug\net10.0\Caspentry_Workshop.Application.pdb
 D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Debug\net10.0\ref\Caspentry_Workshop.Application.dll
+D:\Proyecto Final\src\Caspentry_Workshop.Application\obj\Debug\net10.0\Caspentry_Workshop.Application.sourcelink.json

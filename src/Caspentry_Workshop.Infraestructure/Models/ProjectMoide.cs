@@ -13,8 +13,5 @@ namespace Caspentry_Workshop.Domain.Entities
         public string? Status { get; set; }
         public double Total { get; set; }
         public int ClienteId { get; set; }
-
-        public int ProjectId { get; set; }
-
     }
 }

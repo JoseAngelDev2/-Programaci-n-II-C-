@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Caspentry_Workshop.Domain/1.0.0": {
+        "runtime": {
+          "Caspentry_Workshop.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Caspentry_Workshop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

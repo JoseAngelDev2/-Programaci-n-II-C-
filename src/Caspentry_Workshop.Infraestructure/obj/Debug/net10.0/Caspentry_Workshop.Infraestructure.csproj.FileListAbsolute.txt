@@ -63,3 +63,4 @@ D:\Proyecto Final\src\Caspentry_Workshop.Infraestructure\bin\Debug\net10.0\Build
 D:\Proyecto Final\src\Caspentry_Workshop.Infraestructure\bin\Debug\net10.0\BuildHost-netcore\zh-Hant\System.CommandLine.resources.dll
 D:\Proyecto Final\src\Caspentry_Workshop.Infraestructure\bin\Debug\net10.0\Caspentry_Workshop.Infraestructure.runtimeconfig.json
 D:\Proyecto Final\src\Caspentry_Workshop.Infraestructure\obj\Debug\net10.0\Caspentry_Workshop.Infraestructure.genruntimeconfig.cache
+D:\Proyecto Final\src\Caspentry_Workshop.Infraestructure\obj\Debug\net10.0\Caspentry_Workshop.Infraestructure.sourcelink.json

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Caspentry_Workshop.Application/1.0.0": {
+        "dependencies": {
+          "Caspentry_Workshop.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Caspentry_Workshop.Application.dll": {}
+        }
+      },
+      "Caspentry_Workshop.Domain/1.0.0": {
+        "runtime": {
+          "Caspentry_Workshop.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Caspentry_Workshop.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Caspentry_Workshop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
