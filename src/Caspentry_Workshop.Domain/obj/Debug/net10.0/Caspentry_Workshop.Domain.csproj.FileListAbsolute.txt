@@ -1,0 +1,11 @@
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\bin\Debug\net10.0\Caspentry_Workshop.Domain.deps.json
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\bin\Debug\net10.0\Caspentry_Workshop.Domain.dll
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\bin\Debug\net10.0\Caspentry_Workshop.Domain.pdb
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\obj\Debug\net10.0\Caspentry_Workshop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\obj\Debug\net10.0\Caspentry_Workshop.Domain.AssemblyInfoInputs.cache
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\obj\Debug\net10.0\Caspentry_Workshop.Domain.AssemblyInfo.cs
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\obj\Debug\net10.0\Caspentry_Workshop.Domain.csproj.CoreCompileInputs.cache
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\obj\Debug\net10.0\Caspentry_Workshop.Domain.dll
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\obj\Debug\net10.0\refint\Caspentry_Workshop.Domain.dll
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\obj\Debug\net10.0\Caspentry_Workshop.Domain.pdb
+D:\Proyecto Final\src\Caspentry_Workshop.Domain\obj\Debug\net10.0\ref\Caspentry_Workshop.Domain.dll

@@ -1,0 +1,6 @@
+@Carpentry_Workshop.Api_HostAddress = http://localhost:5038
+
+GET {{ Carpentry_Workshop.Api_HostAddress }}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Carpentry_Workshop.Api/Carpentry_Workshop.Api.csproj" />
+    <Project Path="src/Caspentry_Workshop.Application/Caspentry_Workshop.Application.csproj" />
+    <Project Path="src/Caspentry_Workshop.Domain/Caspentry_Workshop.Domain.csproj" />
+    <Project Path="src/Caspentry_Workshop.Infraestructure/Caspentry_Workshop.Infraestructure.csproj" />
+  </Folder>
+</Solution>
