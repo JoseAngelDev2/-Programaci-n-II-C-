@@ -161,8 +161,8 @@ builder.Services.AddCors(options =>
 * ✅ Implementar DTOs completos
 * 🔄 AutoMapper
 * 🔐 Autenticación (JWT / OAuth)
-* 📊 Dashboard en frontend
-* 📦 Integración con base de datos en la nube
+* 📊 Dashboard en frontend (Completado con vercel)
+* 📦 Integración con base de datos en la nube (Completado con supabase)
 
 ---
 
@@ -171,14 +171,3 @@ builder.Services.AddCors(options =>
 Desarrollado por **JoseAngelDev2** 🚀
 
 ---
-
-## ⭐ Contribuciones
-
-¡Las contribuciones son bienvenidas!
-Puedes hacer fork del proyecto y enviar un pull request.
-
----
-
-## 📜 Licencia
-
-MIT License
