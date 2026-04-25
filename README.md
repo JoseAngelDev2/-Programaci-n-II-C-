@@ -1,79 +1,129 @@
-# 🪚 Caspentry Workshop API
+# 📄 Documento de Requerimientos del Sistema
 
-### Backend moderno en **.NET** con arquitectura limpia + Frontend integrado
-
----
-
-## 🚀 Descripción
-
-**Caspentry Workshop** es una API desarrollada en **ASP.NET Core** que gestiona un sistema completo para un taller de carpintería:
-
-* 👷 Gestión de carpinteros
-* 👤 Gestión de clientes
-* 📁 Gestión de proyectos
-* 🪵 Control de materiales
-* 🚚 Seguimiento de entregas
-
-El proyecto sigue una **arquitectura limpia (Clean Architecture)**, separando responsabilidades para facilitar escalabilidad, mantenimiento y testing.
+## 🪚 Caspentry Workshop
 
 ---
 
-## 🧱 Arquitectura del proyecto
+## 1. 📌 Introducción
 
-```bash
-src/
-│
-├── Caspentry_Workshop.Api            # 🌐 Capa de presentación (Controllers, endpoints)
-├── Caspentry_Workshop.Application    # 🧠 Lógica de aplicación (DTOs, interfaces)
-├── Caspentry_Workshop.Domain         # 📦 Entidades del dominio
-├── Caspentry_Workshop.Infrastructure # 🔌 Acceso a datos (EF Core, repositorios)
-│
-└── Front                            # 🎨 Frontend (opcional / en desarrollo)
-```
+El presente documento define los requerimientos funcionales y no funcionales del sistema **Caspentry Workshop**, una solución tecnológica orientada a la gestión integral de un taller de carpintería.
+
+El sistema permite administrar carpinteros, clientes, proyectos, materiales y entregas, centralizando la información y optimizando los procesos operativos del negocio.
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## 2. 🎯 Objetivo del Sistema
 
-* ⚡ .NET 10 / ASP.NET Core
-* 🗄️ Entity Framework Core
-* 🧩 Arquitectura limpia (Clean Architecture)
-* 🔗 API REST
-* 🐳 Docker (para despliegue)
+Desarrollar una aplicación web que permita:
 
----
-
-## 📦 Funcionalidades principales
-
-### 👷 Carpinteros
-
-* Crear, editar, eliminar y listar carpinteros
-* Gestión de especialidad, salario y contacto
-
-### 👤 Clientes
-
-* CRUD completo
-* Relación con proyectos
-
-### 📁 Proyectos
-
-* Gestión de estado (Pendiente, En Proceso, Completado)
-* Asociación con clientes
-* Control de costos
-
-### 🪵 Materiales
-
-* Inventario de materiales
-* Control de cantidades y precios
-
-### 🚚 Entregas
-
-* Seguimiento de entregas por proyecto
-* Estados: Pendiente / Entregado
+* Gestionar recursos humanos (carpinteros)
+* Administrar clientes y sus proyectos
+* Controlar materiales e inventario
+* Supervisar entregas y estados de proyectos
 
 ---
 
-## 🔗 Endpoints principales
+## 3. 🧱 Alcance
+
+El sistema cubrirá:
+
+* Operaciones CRUD completas para todas las entidades
+* Gestión de relaciones entre clientes, proyectos y entregas
+* Visualización de información desde un frontend web
+* Persistencia de datos en base de datos en la nube (Supabase)
+
+---
+
+## 4. 👥 Usuarios del Sistema
+
+* 👨‍🔧 Administrador del taller
+* 👨‍💼 Encargado de proyectos
+* 👤 Personal operativo (uso limitado)
+
+---
+
+## 5. 📦 Requerimientos Funcionales
+
+### 5.1 Gestión de Carpinteros
+
+* RF-01: El sistema debe permitir registrar carpinteros
+* RF-02: El sistema debe permitir editar información de carpinteros
+* RF-03: El sistema debe permitir eliminar carpinteros
+* RF-04: El sistema debe listar todos los carpinteros
+* RF-05: El sistema debe almacenar:
+
+  * Nombre
+  * Especialidad
+  * Teléfono
+  * Salario
+
+---
+
+### 5.2 Gestión de Clientes
+
+* RF-06: Registrar clientes
+* RF-07: Editar clientes
+* RF-08: Eliminar clientes
+* RF-09: Listar clientes
+* RF-10: Cada cliente puede tener múltiples proyectos
+* RF-11: Datos:
+
+  * Nombre
+  * Apellido
+  * Dirección
+  * Teléfono
+  * Email
+
+---
+
+### 5.3 Gestión de Proyectos
+
+* RF-12: Crear proyectos
+* RF-13: Editar proyectos
+* RF-14: Eliminar proyectos
+* RF-15: Listar proyectos
+* RF-16: Asociar proyecto a un cliente
+* RF-17: Manejar estados:
+
+  * Pendiente
+  * En Proceso
+  * Completado
+* RF-18: Controlar costo total del proyecto
+
+---
+
+### 5.4 Gestión de Materiales
+
+* RF-19: Registrar materiales
+* RF-20: Editar materiales
+* RF-21: Eliminar materiales
+* RF-22: Listar materiales
+* RF-23: Controlar:
+
+  * Nombre
+  * Cantidad
+  * Precio unitario
+  * Imagen
+
+---
+
+### 5.5 Gestión de Entregas
+
+* RF-24: Registrar entregas
+* RF-25: Editar entregas
+* RF-26: Eliminar entregas
+* RF-27: Listar entregas
+* RF-28: Asociar entrega a un proyecto
+* RF-29: Estados de entrega:
+
+  * Pendiente
+  * Entregado
+
+---
+
+## 6. 🔗 Requerimientos de API
+
+El sistema debe exponer endpoints REST:
 
 ```http
 GET     /api/{entity}
@@ -83,7 +133,7 @@ PUT     /api/{entity}/{id}
 DELETE  /api/{entity}/{id}
 ```
 
-📌 Donde `{entity}` puede ser:
+Entidades:
 
 * carpinter
 * client
@@ -93,7 +143,65 @@ DELETE  /api/{entity}/{id}
 
 ---
 
-## 🧪 Ejemplo de Request (Delivery)
+## 7. 🗄️ Requerimientos de Base de Datos
+
+* Uso de base de datos en la nube (Supabase)
+* Persistencia de todas las entidades
+* Relaciones:
+
+  * Cliente → Proyectos
+  * Proyecto → Entregas
+* Integridad referencial obligatoria
+
+---
+
+## 8. ⚙️ Requerimientos No Funcionales
+
+### 8.1 Rendimiento
+
+* El sistema debe responder en menos de 2 segundos en operaciones estándar
+
+### 8.2 Escalabilidad
+
+* Arquitectura basada en Clean Architecture para facilitar crecimiento
+
+### 8.3 Seguridad
+
+* Validación de datos en backend
+* Preparado para futura implementación de autenticación (JWT)
+
+### 8.4 Usabilidad
+
+* Interfaz intuitiva en frontend
+* Formularios claros y validaciones visibles
+
+### 8.5 Disponibilidad
+
+* Sistema accesible desde navegador web
+* Backend desplegado en servidor accesible públicamente
+
+---
+
+## 9. 🧩 Arquitectura del Sistema
+
+```bash
+src/
+├── Caspentry_Workshop.Api
+├── Caspentry_Workshop.Application
+├── Caspentry_Workshop.Domain
+├── Caspentry_Workshop.Infrastructure
+└── Front
+```
+
+* Separación por capas
+* Uso de repositorios
+* Lógica desacoplada
+
+---
+
+## 10. 🧪 Ejemplo de Uso
+
+### Crear entrega:
 
 ```json
 {
@@ -105,69 +213,31 @@ DELETE  /api/{entity}/{id}
 
 ---
 
-## 🐳 Deploy con Docker (Render)
+## 11. 📊 Estado actual del sistema
 
-### 📁 Ubicación del Dockerfile
-
-```
-src/Caspentry_Workshop.Api/Dockerfile
-```
-
-### ▶️ Ejecutar localmente
-
-```bash
-docker build -t caspentry-api .
-docker run -p 10000:10000 caspentry-api
-```
+* ✔ Backend funcional (.NET)
+* ✔ API REST completa
+* ✔ Base de datos en Supabase integrada
+* ✔ Frontend funcional desplegado
 
 ---
 
-## 🌍 Deploy en la nube
+## 12. 🚀 Mejoras futuras
 
-Recomendado usar:
-
-* Render → Backend (.NET API)
-* Vercel → Frontend
-
----
-
-## ⚠️ Configuración importante
-
-### Puerto para producción (Render)
-
-```csharp
-app.Urls.Add("http://0.0.0.0:10000");
-```
+* Implementación de autenticación (JWT)
+* Dashboard con métricas
+* Sistema de roles
+* Notificaciones
+* Reportes
 
 ---
 
-### CORS (para frontend)
+## 13. 👨‍💻 Autor
 
-```csharp
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll",
-        policy => policy
-            .AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader());
-});
-```
+Desarrollado por **JoseAngelDev2**
 
 ---
 
-## 💡 Próximas mejoras
+## 14. 📌 Conclusión
 
-* ✅ Implementar DTOs completos
-* 🔄 AutoMapper
-* 🔐 Autenticación (JWT / OAuth)
-* 📊 Dashboard en frontend (Completado con vercel)
-* 📦 Integración con base de datos en la nube (Completado con supabase)
-
----
-
-## 👨‍💻 Autor
-
-Desarrollado por **JoseAngelDev2** 🚀
-
----
+El sistema **Caspentry Workshop** representa una solución sólida para la digitalización de procesos en talleres de carpintería, permitiendo mejorar la organización, el control de recursos y la eficiencia operativa.
