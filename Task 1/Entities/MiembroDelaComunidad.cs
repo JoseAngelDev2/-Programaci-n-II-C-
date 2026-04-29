@@ -9,6 +9,6 @@ namespace CURSO_C_.Entities
     {
         public int IdMiembroDelaComunidad {get; set;}
         public string Nombre {get; set;}
-        public string Correo {get; set;} // Karen Te quiero
+        public string Correo {get; set;} 
     }
 }
